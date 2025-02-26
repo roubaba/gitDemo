@@ -15,7 +15,6 @@ public class GitTest {
     public void sport(String name, int age){
         System.out.println("我先自我介绍一下：");
         System.out.println("我叫" + name + "，我今年" + age + "岁了！");
-
     }
 
     public String eat(String foodName){
