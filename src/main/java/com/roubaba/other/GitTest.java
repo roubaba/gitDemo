@@ -20,7 +20,7 @@ public class GitTest {
 
     public String eat(String foodName){
         System.out.println("我最喜欢吃辣椒炒肉");
-        return "我最喜欢吃辣椒炒肉";
+        return "我最喜欢吃辣椒炒肉master test !";
     }
 
 
