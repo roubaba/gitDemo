@@ -1,5 +1,7 @@
 package com.roubaba.other;
 
+import com.sun.org.apache.xpath.internal.objects.XString;
+
 public class GitTest {
 
     public static void main(String[] args) {
@@ -14,6 +16,11 @@ public class GitTest {
         System.out.println("我先自我介绍一下：");
         System.out.println("我叫" + name + "，我今年" + age + "岁了！");
 
+    }
+
+    public String eat(String foodName){
+        System.out.println("我最喜欢吃辣椒炒肉");
+        return "我最喜欢吃辣椒炒肉";
     }
 
 
