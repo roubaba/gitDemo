@@ -15,6 +15,7 @@ public class GitTest {
     public void sport(String name, int age){
         System.out.println("我先自我介绍一下：");
         System.out.println("我叫" + name + "，我今年" + age + "岁了！");
+        System.out.println("我在github上改了代码，加了这行代码，测试从本地拉取GitHub上的代码");
     }
 
     public String eat(String foodName){
